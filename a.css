@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.login_card {
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(87, 87, 219);
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+input {
+    border: 1px solid #e1e1e1;
+    outline: none;
+    padding: 10px;
+}
